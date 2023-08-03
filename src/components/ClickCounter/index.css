@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.main-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin: 10px;
+}
+.heading span {
+  color: #c20a72;
+}
+.button {
+  padding: 10px 5px;
+  background-color: #007bff;
+  color: white;
+  margin: 5px;
+}
